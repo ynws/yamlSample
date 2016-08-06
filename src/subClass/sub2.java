@@ -1,6 +1,6 @@
 package subClass;
 
-public class sub2 {
+public class sub2 extends subClass{
 	private String name;
 	private int age;
 
@@ -10,6 +10,7 @@ public class sub2 {
 		this.age = age;
 	}
 
+	@Override
 	public String getName() {
 		return name;
 	}
