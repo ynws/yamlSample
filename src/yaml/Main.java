@@ -2,11 +2,9 @@ package yaml;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.reflect.ParameterizedType;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -24,7 +22,7 @@ import subClass.subClass;
 public class Main {
 	private static String filename = "buf.yaml";
     public static void main(String[] args) {
-    	// makeYaml();
+    	makeYaml();
 		ShowAll();
 		ShowClass(sub1.class);
 		ShowClass(sub2.class);
